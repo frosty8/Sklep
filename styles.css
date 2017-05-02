@@ -1,0 +1,225 @@
+body{
+	margin: 10px 0px 0px 0px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	background-color: #656565;
+	color: #efefef;
+
+}
+.navBar
+{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #343434;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.sideBar
+{
+	width: 500px;
+	height: 60%;
+	line-height: 40px;
+	background-color: #BCBCBC;
+	border: 2px solid #898989;
+	text-align: left;
+}
+.sideTile
+{
+	width: calc(100% - 10px);
+	padding: 0px 0px 0px 10px;
+	border-bottom: 1px solid #787878;
+	line-height: inherit;
+	background-color: inherit;
+}
+.tile1
+{
+	width: 300px;
+	height: 75px;
+	float: left;
+	padding: 10px;
+	background-color: #56bb56;
+	border: 0px;
+	cursor: pointer;
+	border-radius: 4px;
+	text-decoration: none;
+	text-align: center;
+	color:#abffab;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 55px;
+}
+.button1
+{
+	width: 200px;
+	height: 70px;
+	border: 0px;
+	padding: 2px;
+	background-color: #A0A0A0;
+	cursor: pointer;
+	border-radius: 2px;
+	text-decoration: none;
+	text-align: center;
+	color:#774411;
+	font-weight: bold;
+
+}
+.product
+{
+	padding: 5px;
+	border: 1px solid #232323;
+}
+.searcher
+{
+	width: 300px;
+	height: 100px;
+	margin-top: -50px;
+	margin-right: 75px;
+	float: right;
+	padding: 40px;
+	background-color: #868686;
+	border: 1px solid #454554;
+}
+.mainLink
+{
+	text-decoration: none;
+	color: inherit;
+	display: block;
+}
+.regularLink
+{
+	text-decoration: none;
+	font-weight: bold;
+	color:#FFFFFF;
+}
+.link
+{
+	text-decoration: none;
+	color:#994C00;
+	font-weight: bold;
+	display: block;
+}
+.linkDistinct
+{
+	display: block;
+	text-decoration: none;
+	color:#F2DE7C;
+	font-weight: bold;
+}
+.linkBack
+{
+	text-decoration: none;
+	display: block;
+	border: 1px solid #454545;
+	text-align: center;
+	background-color: #767676;
+	color:#560101;
+	font-weight: bold;
+}
+.prodLink
+{
+	text-decoration: none;
+	color:#D2D246;
+	font-weight: bold;
+}
+
+
+.navTile0:hover
+{
+	background-color: inherit;
+
+}
+.navTile1:hover
+{
+	background-color: inherit;
+
+}
+.sideTile:hover
+{
+	background-color: #D48207;
+	color:#ddffdd;
+}
+.tile1:hover
+{
+	background-color: #359935;
+}
+.button1:hover
+{
+	background-color: #C2C2C2;
+	color:#663300;
+}
+.product:hover
+{
+	background-color: #898978;
+}
+.link:hover
+{
+	color:#552200;
+}
+.regularLink:hover
+{
+	color:#CC7E33;
+}
+.linkBack:hover
+{
+	color:#752222;
+}
+.product:hover > .prodLink
+{
+	color: #EE9F00;
+}
+.buyItLink:hover
+{
+	color:#ddffdd;
+
+}
+
+
+
+.navBar > ol
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+
+
+}
+
+.navBar > ol > li
+{
+	float: left;
+	display: block;
+	width: 500px;
+	position: relative;
+	z-index: 100;
+
+}
+
+.navBar > ol > li:hover
+{
+	background-color: #942514;
+
+}
+
+.navBar > ol > li > ul
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	display: none;
+	z-index: 100;
+
+
+}
+.navBar > ol > li:hover > ul
+{
+	display: block;
+
+}
+.navBar > ol > li > ul > li:hover
+{
+	background-color: #C75847;
+}
+
